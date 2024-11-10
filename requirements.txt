@@ -1,0 +1,4 @@
+Flask==2.3.2
+asyncio==3.4.3
+Telethon==1.29.0
+

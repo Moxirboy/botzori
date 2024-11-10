@@ -1,0 +1,394 @@
+{
+    "underweight": {
+        "breakfast": [
+            {
+                "meal": "Oatmeal with full-fat milk, nuts, seeds, and honey",
+                "image_url": "https://theforkedspoon.com/wp-content/uploads/2016/02/OvernightOatswithMixedFruit1.jpg",
+                "ingredients": [
+                    "oats",
+                    "full-fat milk",
+                    "honey",
+                    "almonds",
+                    "chia seeds",
+                    "flaxseeds"
+                ],
+                "order_url": "https://eda.yandex.ru/search?query=Oatmeal%20with%20full-fat%20milk"
+            },
+            {
+                "meal": "Avocado toast with scrambled eggs",
+                "image_url": "https://www.acouplecooks.com/wp-content/uploads/2021/06/Avocado-Toast-with-Egg-006.jpg",
+                "ingredients": [
+                    "avocado",
+                    "whole-grain bread",
+                    "eggs",
+                    "olive oil",
+                    "salt",
+                    "pepper"
+                ],
+                "order_url": "https://www.foodnetwork.com/recipes/trisha-yearwood/avocado-toast-with-creamy-soft-scrambled-egg-3667942"
+            },
+            {
+                "meal": "Greek yogurt with granola and mixed berries",
+                "image_url": "https://www.simplyrecipes.com/thmb/9F0cEZ6gNfNyHTMSuIJROFGTbx4=/1777x1333/smart/filters:no_upscale()/Simply-Recipes-Granola-Parfait-Lead-4-b4b81fc4d4694bde9f5cdb47b4ba2e7a.jpg",
+                "ingredients": [
+                    "Greek yogurt",
+                    "granola",
+                    "mixed berries",
+                    "honey"
+                ],
+                "order_url": "https://eda.yandex.ru/moscow?shippingType=delivery"
+            }
+        ],
+        "snack": [
+            {
+                "meal": "Peanut butter on whole-grain toast",
+                "image_url": "https://www.onceuponachef.com/images/2021/01/Peanut-Butter-Toasts.jpg",
+                "ingredients": [
+                    "whole-grain bread",
+                    "peanut butter"
+                ],
+                "order_url": "https://eda.yandex.ru/moscow?shippingType=delivery"
+            },
+            {
+                "meal": "Smoothie with banana, spinach, and full-fat yogurt",
+                "image_url": "https://cookieandkate.com/images/2020/03/green-smoothie-recipe-2-768x1152.jpg",
+                "ingredients": [
+                    "banana",
+                    "spinach",
+                    "full-fat yogurt",
+                    "almond milk",
+                    "honey"
+                ],
+                "order_url": "https://eda.yandex.ru/moscow?shippingType=delivery"
+            },
+            {
+                "meal": "Trail mix with nuts, dried fruits, and seeds",
+                "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2020/04/trail-mix.jpg",
+                "ingredients": [
+                    "almonds",
+                    "cashews",
+                    "raisins",
+                    "dried cranberries",
+                    "sunflower seeds",
+                    "pumpkin seeds"
+                ],
+                "order_url": "https://eda.yandex.ru/moscow?shippingType=delivery"
+            }
+        ],
+        "lunch": [
+            {
+                "meal": "Grilled chicken salad with quinoa, avocado, and olive oil",
+                "image_url": "https://www.eatwell101.com/wp-content/uploads/2019/07/Healthy-Chicken-and-Avocado-Salad.jpg",
+                "ingredients": [
+                    "chicken breast",
+                    "quinoa",
+                    "avocado",
+                    "olive oil",
+                    "spinach",
+                    "cherry tomatoes",
+                    "lemon"
+                ],
+                "order_url": "https://eda.yandex.ru/moscow?shippingType=delivery"
+            },
+            {
+                "meal": "Lentil stew with brown rice and roasted vegetables",
+                "image_url": "https://www.connoisseurusveg.com/wp-content/uploads/2018/01/lentil-stew-4-of-4.jpg",
+                "ingredients": [
+                    "lentils",
+                    "brown rice",
+                    "carrots",
+                    "onion",
+                    "garlic",
+                    "tomatoes",
+                    "vegetable broth",
+                    "spinach"
+                ],
+                "order_url": "https://eda.yandex.ru/moscow?shippingType=delivery"
+            },
+            {
+                "meal": "Whole-grain pasta with marinara sauce, meatballs, and parmesan",
+                "image_url": "https://www.simplyrecipes.com/thmb/oWMyGAA0qDrHDuVCz02-SIqUw6A=/1777x1333/smart/filters:no_upscale()/Simply-Recipes-Spaghetti-Meatballs-LEAD-10-e23f702d4b6c42e2b765905f91f2ba69.jpg",
+                "ingredients": [
+                    "whole-grain pasta",
+                    "ground beef",
+                    "tomato sauce",
+                    "parmesan cheese",
+                    "garlic",
+                    "basil",
+                    "olive oil"
+                ],
+                "order_url": "https://eda.yandex.ru/moscow?shippingType=delivery"
+            }
+        ],
+        "dinner": [
+            {
+                "meal": "Salmon with sweet potato and steamed broccoli",
+                "image_url": "https://www.eatwell101.com/wp-content/uploads/2019/07/Healthy-Baked-Salmon-Sweet-Potato.jpg",
+                "ingredients": [
+                    "salmon",
+                    "sweet potato",
+                    "broccoli",
+                    "olive oil",
+                    "garlic",
+                    "lemon"
+                ],
+                "order_url": "https://eda.yandex.ru/moscow?shippingType=delivery"
+            },
+            {
+                "meal": "Beef stir-fry with bell peppers, zucchini, and brown rice",
+                "image_url": "https://healthyfitnessmeals.com/wp-content/uploads/2020/10/Beef-Stir-Fry-3.jpg",
+                "ingredients": [
+                    "beef",
+                    "bell peppers",
+                    "zucchini",
+                    "onions",
+                    "soy sauce",
+                    "ginger",
+                    "garlic",
+                    "brown rice"
+                ],
+                "order_url": "https://eda.yandex.ru/moscow?shippingType=delivery"
+            },
+            {
+                "meal": "Tofu curry with coconut milk, quinoa, and saut\u00e9ed greens",
+                "image_url": "https://veganhuggs.com/wp-content/uploads/2019/03/coconut-curry-tofu-1.jpg",
+                "ingredients": [
+                    "tofu",
+                    "coconut milk",
+                    "spinach",
+                    "quinoa",
+                    "onion",
+                    "garlic",
+                    "ginger",
+                    "curry powder",
+                    "olive oil"
+                ],
+                "order_url": "https://eda.yandex.ru/moscow?shippingType=delivery"
+            }
+        ]
+    },
+    "normal_weight": {
+        "breakfast": [
+            {
+                "meal": "Scrambled eggs with spinach and whole-wheat toast",
+                "image_url": "https://www.thespruceeats.com/thmb/WpnEhU6caFnOgOeC8DdoSVlqi4M=/3000x1688/filters:fill(auto,1)/scrambled-eggs-with-spinach-481680-Hero_04-34505b07385045fabbbcc1941ad0337b.jpg",
+                "ingredients": ["eggs", "spinach", "whole-wheat bread", "butter", "salt", "pepper"],
+                "order_url": "https://eda.yandex.ru/search?query=Oatmeal%20with%20full-fat%20milk"
+            },
+            {
+                "meal": "Smoothie bowl with spinach, protein powder, and berries",
+                "image_url": "https://fedandfit.com/wp-content/uploads/2021/11/211112_Protein-Smoothie-Bowl-7.jpg",
+                "ingredients": ["spinach", "protein powder", "mixed berries", "almond milk", "chia seeds"],
+                "order_url": "https://eda.yandex.ru/search?query=Oatmeal%20with%20full-fat%20milk"
+            },
+            {
+                "meal": "Whole-grain pancakes with almond butter and banana",
+                "image_url": "https://www.fannetasticfood.com/wp-content/uploads/2023/05/Almond-Flour-Banana-Pancakes-featured-image-720x720.jpg",
+                "ingredients": ["whole-grain flour", "almond butter", "banana", "baking powder", "eggs", "almond milk"],
+                "order_url": "https://eda.yandex.ru/search?query=Oatmeal%20with%20full-fat%20milk"
+            }
+        ],
+        "snack": [
+            {
+                "meal": "Apple slices with almond butter",
+                "image_url": "http://peapilpublishing.com/cdn/shop/articles/Apple_Slices_with_Almond_Butter.jpg?v=1674858298",
+                "ingredients": ["apple", "almond butter"],
+                "order_url": "https://eda.yandex.ru/search?query=Oatmeal%20with%20full-fat%20milk"
+            },
+            {
+                "meal": "Carrot and celery sticks with hummus",
+                "image_url": "https://sevalife.net/wp-content/uploads/2020/01/Carrot-and-Celery-Sticks-with-Flavored-Hummus.jpg",
+                "ingredients": ["carrots", "celery", "hummus"],
+                "order_url": "https://eda.yandex.ru/search?query=Oatmeal%20with%20full-fat%20milk"
+            },
+            {
+                "meal": "Handful of mixed nuts and a piece of dark chocolate",
+                "image_url": "https://thumbs.dreamstime.com/b/dark-chocolate-nuts-wooden-background-51194504.jpg",
+                "ingredients": ["almonds", "cashews", "walnuts", "dark chocolate", "sunflower seeds"],
+                "order_url": "https://eda.yandex.ru/search?query=Oatmeal%20with%20full-fat%20milk"
+            }
+        ],
+        "lunch": [
+            {
+                "meal": "Turkey sandwich on whole-wheat bread with lettuce and tomato",
+                "image_url": "http://photos.demandstudios.com/getty/article/240/134/183942774.jpg",
+                "ingredients": ["turkey breast", "whole-wheat bread", "lettuce", "tomato", "mustard"],
+                "order_url": "https://eda.yandex.ru/search?query=Oatmeal%20with%20full-fat%20milk"
+            },
+            {
+                "meal": "Grilled chicken with quinoa salad and roasted vegetables",
+                "image_url": "https://media.self.com/photos/5a09d363007f5b5ea694477d/master/pass/0717-peachy-quinoa-salad-grilled-chicken-lg.jpg",
+                "ingredients": ["chicken breast", "quinoa", "bell peppers", "zucchini", "cherry tomatoes", "olive oil"],
+                "order_url": "https://eda.yandex.ru/search?query=Oatmeal%20with%20full-fat%20milk"
+            },
+            {
+                "meal": "Vegetarian wrap with hummus, cucumber, and avocado",
+                "image_url": "https://fthmb.tqn.com/Y-3aOpt7YdnF07FlLhH8AdJW7VY=/2121x1414/filters:fill(auto,1)/michael-powell-wraps-57444b815f9b58723d1040bd.jpg",
+                "ingredients": ["hummus", "whole-wheat tortilla", "cucumber", "avocado", "lettuce", "carrot"],
+                "order_url": "https://eda.yandex.ru/search?query=Oatmeal%20with%20full-fat%20milk"
+            }
+        ],
+        "dinner": [
+            {
+                "meal": "Salmon with brown rice and steamed asparagus",
+                "image_url": "https://3.bp.blogspot.com/-1Bh7ocPlh1E/U2al_CGqaaI/AAAAAAAAVL0/FbkOqC37TI8/s1600/DSC04635.JPG",
+                "ingredients": ["salmon", "brown rice", "asparagus", "olive oil", "garlic", "lemon"],
+                "order_url": "https://eda.yandex.ru/search?query=Oatmeal%20with%20full-fat%20milk"
+            },
+            {
+                "meal": "Chicken stir-fry with broccoli, bell peppers, and brown rice",
+                "image_url": "https://www.eatwell101.com/wp-content/uploads/2021/01/how-to-cook-chicken-stir-fry.jpg",
+                "ingredients": ["chicken breast", "broccoli", "bell peppers", "brown rice", "soy sauce", "garlic", "ginger"],
+                "order_url": "https://eda.yandex.ru/search?query=Oatmeal%20with%20full-fat%20milk"
+            },
+            {
+                "meal": "Vegetarian chili with beans, tomatoes, and corn",
+                "image_url": "https://planetarianlife.com/wp-content/uploads/2021/04/Chili-1840x1220.jpg",
+                "ingredients": ["black beans", "kidney beans", "corn", "tomatoes", "onion", "garlic", "chili powder", "olive oil"],
+                "order_url": "https://eda.yandex.ru/search?query=Oatmeal%20with%20full-fat%20milk"
+            }
+        ]
+    },
+    "overweight": {
+        "breakfast": [
+            {
+                "meal": "Veggie omelette with spinach, mushrooms, and whole-wheat toast",
+                "image_url": "https://images.eatsmarter.com/sites/default/files/styles/576x432/public/spinach-and-mushroom-omelet-with-toast-580742.jpg",
+                "ingredients": [
+                    "eggs",
+                    "spinach",
+                    "mushrooms",
+                    "olive oil",
+                    "whole-wheat bread"
+                ],
+                "order_url": "https://healthyfamilyproject.com/recipes/veggie-omelet/"
+            },
+            {
+                "meal": "Greek yogurt with chia seeds, flaxseeds, and mixed berries",
+                "image_url": "https://data.thefeedfeed.com/recommended/post_6007741.jpeg",
+                "ingredients": [
+                    "Greek yogurt",
+                    "chia seeds",
+                    "flaxseeds",
+                    "mixed berries"
+                ],
+                "order_url": "https://www.theworktop.com/breakfast-brunch-recipes/chia-seeds-in-yogurt/"
+            },
+            {
+                "meal": "Smoothie with kale, cucumber, lemon, and almond milk",
+                "image_url": "https://www.dishingdelish.com/wp-content/uploads/2020/04/Kale-Smoothie-5.jpg",
+                "ingredients": [
+                    "kale",
+                    "cucumber",
+                    "lemon",
+                    "almond milk"
+                ],
+                "order_url": "https://damndelicious.net/2018/01/01/green-detox-smoothie/"
+            }
+        ],
+        "snack": [
+            {
+                "meal": "Carrot sticks with hummus",
+                "image_url": "https://www.pcrm.org/sites/default/files/2021-10/red-hummus-1.jpg",
+                "ingredients": [
+                    "carrots",
+                    "hummus"
+                ],
+                "order_url": "https://tasty.co/recipe/hummus-and-carrot-sticks"
+            },
+            {
+                "meal": "Handful of almonds and an apple",
+                "image_url": "https://www.thegoodkitchentable.com/wp-content/uploads/d93b4271-1fe8-46fd-8eb7-fc3802c505ca.jpg",
+                "ingredients": [
+                    "almonds",
+                    "apple"
+                ],
+                "order_url": "https://eats.yandex.com/en-uz/tashkent?shippingType=delivery"
+            },
+            {
+                "meal": "Celery with peanut butter",
+                "image_url": "https://i.pinimg.com/originals/ab/1f/17/ab1f1706081b10edcb986ec5bc8e97f2.jpg",
+                "ingredients": [
+                    "celery",
+                    "peanut butter"
+                ],
+                "order_url": "https://eats.yandex.com/en-uz/tashkent?shippingType=delivery"
+            }
+        ],
+        "lunch": [
+            {
+                "meal": "Grilled chicken salad with mixed greens and vinaigrette",
+                "image_url": "https://gimmesomegrilling.com/wp-content/uploads/2021/05/Grilled-Chicken-Salad-Recipe-Square-768x768.jpg",
+                "ingredients": [
+                    "chicken breast",
+                    "mixed greens",
+                    "olive oil",
+                    "vinegar",
+                    "cherry tomatoes",
+                    "cucumbers"
+                ],
+                "order_url": "https://www.vibrantplate.com/grilled-chicken-mixed-greens-salad/"
+            },
+            {
+                "meal": "Turkey lettuce wraps with avocado and salsa",
+                "image_url": "https://i.pinimg.com/originals/b5/1f/5e/b51f5e8be8e5249ad5bc774448d5effd.jpg",
+                "ingredients": [
+                    "ground turkey",
+                    "lettuce",
+                    "avocado",
+                    "salsa"
+                ],
+                "order_url": "https://eats.yandex.com/en-uz/tashkent?shippingType=delivery"
+            },
+            {
+                "meal": "Lentil soup with kale and sweet potatoes",
+                "image_url": "https://wholeandheavenlyoven.com/wp-content/uploads/2020/12/Curry-Lentil-Soup-Overhead-Bowl.jpg",
+                "ingredients": [
+                    "lentils",
+                    "kale",
+                    "sweet potatoes",
+                    "vegetable broth",
+                    "garlic"
+                ],
+                "order_url": "https://eats.yandex.com/en-uz/tashkent?shippingType=delivery"
+            }
+        ],
+        "dinner": [
+            {
+                "meal": "Baked salmon with quinoa and steamed broccoli",
+                "image_url": "https://www.healthypioneer.com/wp-content/uploads/2023/08/lemon-salmon.png",
+                "ingredients": [
+                    "salmon",
+                    "quinoa",
+                    "broccoli",
+                    "lemon",
+                    "olive oil"
+                ],
+                "order_url": "https://eats.yandex.com/en-uz/tashkent?shippingType=delivery"
+            },
+            {
+                "meal": "Grilled shrimp with zucchini noodles",
+                "image_url": "https://www.justataste.com/wp-content/uploads/2016/06/pesto-zucchini-noodles-shrimp-image.jpg",
+                "ingredients": [
+                    "shrimp",
+                    "zucchini",
+                    "olive oil",
+                    "garlic"
+                ],
+                "order_url": "https://eats.yandex.com/en-uz/tashkent?shippingType=delivery"
+            },
+            {
+                "meal": "Stir-fried tofu with mixed vegetables",
+                "image_url": "https://www.funfoodfrolic.com/wp-content/uploads/2020/03/Tofu-Stir-Fry-Thumbnail.jpg",
+                "ingredients": [
+                    "tofu",
+                    "broccoli",
+                    "bell peppers",
+                    "soy sauce",
+                    "ginger"
+                ],
+                "order_url": "https://eats.yandex.com/en-uz/tashkent?shippingType=delivery"
+            }
+        ]
+    }
+}

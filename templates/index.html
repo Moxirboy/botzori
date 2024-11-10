@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Meal Recommendation</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        input { padding: 10px; margin: 10px; width: 200px; }
+        button { padding: 10px 20px; }
+        .meal { margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>BMI Meal Recommendation</h1>
+    <form id="bmiForm">
+        <input type="number" name="weight" placeholder="Weight (kg)" required><br>
+        <input type="number" name="height" placeholder="Height (cm)" required><br>
+        <button type="submit">Get Meal Plan</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('bmiForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            const response = await fetch('/get-meal', {
+                method: 'POST',
+                body: formData
+            });
+            const data = await response.json();
+
+            const resultDiv = document.getElementById('result');
+            if (data.error) {
+                resultDiv.innerHTML = `<p style="color: red;">${data.error}</p>`;
+            } else {
+                let mealsHtml = `<h3>Your BMI: ${data.bmi} (${data.category})</h3>`;
+                for (const [mealTime, meals] of Object.entries(data.meals)) {
+                    mealsHtml += `<h4>${mealTime.toUpperCase()}</h4>`;
+                    meals.forEach(meal => {
+                        mealsHtml += `
+                            <div class="meal">
+                                <h5>${meal.meal}</h5>
+                                <img src="${meal.image_url}" alt="${meal.meal}" width="200"><br>
+                                <a href="${meal.order_url}" target="_blank">Order Here</a>
+                            </div>
+                        `;
+                    });
+                }
+                resultDiv.innerHTML = mealsHtml;
+            }
+        });
+    </script>
+</body>
+</html>
