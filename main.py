@@ -6,28 +6,27 @@ import queue
 import os
 app = Flask(__name__)
 import json
-# Replace these with your actual API credentials
+
 api_id = 29925403
 api_hash = '96f2ebf244dd28a8ea8becd0ebf2f316'
 bot_username = '@mealschatbot'
 client = TelegramClient('session_name', api_id, api_hash)
 
-# Queue for messages to be sent to the bot
+
 message_queue = asyncio.Queue()
 
-# Queue for bot responses to be sent to the frontend
 bot_response_queue = queue.Queue()
 
 async def bot_interaction_loop():
-    await client.start()  # Start the client
+    await client.start()  
 
     @client.on(events.NewMessage(from_users=bot_username))
     async def handle_new_message(event):
         message_text = event.message.message
-        # Put the bot response in the response queue
+        
         bot_response_queue.put(message_text)
 
-    # Continuously process messages from the user
+    
     while True:
         item = await message_queue.get()
         if isinstance(item, dict) and 'text' in item:
@@ -38,14 +37,14 @@ async def bot_interaction_loop():
 
 @app.route('/start', methods=['POST'])
 async def start_conversation():
-    # Check if there's a photo in the request
+    
     if 'photo' in request.files:
         photo = request.files['photo']
         photo_path = "temp_photo.jpg"
         photo.save(photo_path)
         await message_queue.put({"photo": photo_path})
     else:
-        # Assume it's a JSON payload with a message if no photo is found
+        
         if request.is_json:
             message = request.json.get('message')
             if message:
@@ -56,15 +55,15 @@ async def start_conversation():
     def generate():
         bot_response_queue.queue.clear()
         while True:
-            message = bot_response_queue.get()  # Block until there's a new message
+            message = bot_response_queue.get()  
             if message:
                 if "Combobulating" in message:
                     continue
-                lines = message.split('\n', 1)  # Split the message into two parts, first line and the rest
+                lines = message.split('\n', 1)  
                 if len(lines) > 1:
                     message = lines[1].strip()
                 yield f"data: {message}\n\n"
-                bot_response_queue.task_done()  # Mark the message as processed
+                bot_response_queue.task_done()  
                 break 
 
     return Response(generate(), mimetype="text/event-stream")
@@ -73,18 +72,17 @@ async def start_conversation():
 def bot_response_stream():
     def generate():
         while True:
-            message = bot_response_queue.get()  # Block until there's a new message
+            message = bot_response_queue.get()  
             yield f"data: {message}\n\n"
 
     return Response(generate(), mimetype="text/event-stream")
 
 
 
-# Load meal data from JSON file
 with open('meals_by_bmi.json', 'r') as file:
     meals_data = json.load(file)
 
-# Function to calculate BMI category
+
 def calculate_bmi_category(bmi):
     if bmi < 18.5:
         return "underweight"
@@ -93,21 +91,21 @@ def calculate_bmi_category(bmi):
     else:
         return "overweight"
 
-# Home route
+
 @app.route('/')
 def index():
     return render_template('index.html')
 
-# Route to handle BMI calculation and meal recommendation
+
 @app.route('/get-meal', methods=['POST'])
 def get_meal():
     try:
         weight = float(request.form['weight'])
         height = float(request.form['height'])
-        bmi = weight / ((height / 100) ** 2)  # Convert height from cm to meters
+        bmi = weight / ((height / 100) ** 2)  
         bmi_category = calculate_bmi_category(bmi)
         
-        # Get meal recommendations based on BMI category
+       
         recommended_meals = meals_data.get(bmi_category, {})
 
         return jsonify({
